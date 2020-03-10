@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
 	<head>
-		<title>µÇÂ¼</title> 
+                <meta charset="utf-8">
+		<title>ç™»å½•</title> 
 	</head>
 <body>
 	<style>
@@ -10,27 +11,27 @@
 			padding:0px;
 		}
 		body{
-			/*±³¾°ÑÕÉ« background-color*/
+			/*èƒŒæ™¯é¢œè‰² background-color*/
 			background-color.rgb(235.122.215);
-			/*±³¾°Í¼Æ¬ background-image*/
+			/*èƒŒæ™¯å›¾ç‰‡ background-image*/
 			background-image:url("../imgs/blackbg.jpg");
-			/*ÊÇ·ñÖØ¸´ÏÔÊ¾±³¾°Í¼Æ¬ background-repeat*/
+			/*æ˜¯å¦é‡å¤æ˜¾ç¤ºèƒŒæ™¯å›¾ç‰‡ background-repeat*/
 			background-repeat:repeat;
 		}
 		form{
 			background-color:#FFFFFF;
 			background-image:url("../imgs/login_txt.png");
 			background-repeat:no-repeat;
-			/*±³¾°Í¼Æ¬ÏÔÊ¾Î»ÖÃ background-position*/
+			/*èƒŒæ™¯å›¾ç‰‡æ˜¾ç¤ºä½ç½® background-position*/
 			background-position:right top;/*left,center*/
-			/*±³¾°Í¼Æ¬´óĞ¡ background-size*/
+			/*èƒŒæ™¯å›¾ç‰‡å¤§å° background-size*/
 			background-size:5em 5em;	
 			margin-top:8em;
 			margin-left:auto;
 			margin-right:auto;
 			padding:2.5em;
 			/*border-bottom:1px dashed #ec6941;*/
-			width:25em;/*ÉèÖÃÔªËØ¿í¶È*/
+			width:25em;/*è®¾ç½®å…ƒç´ å®½åº¦*/
 			text-align:center;
 		}
 		.form-input{
@@ -57,7 +58,7 @@
 		}
 		.form-button:hover{
 			background-color:#22bbaa;
-			cursor:pointer;/*Êó±êĞÎ×´poninter|move|text|wait|help|auto|default*/
+			cursor:pointer;/*é¼ æ ‡å½¢çŠ¶poninter|move|text|wait|help|auto|default*/
 		}
 
 		.form-link{
@@ -70,19 +71,19 @@
 			text-decoration:underline;
 		}
 		.copyright{
-			color:#666666;/*×ÖÌåÑÕÉ«*/
-			font-size:0.75em;/*×ÖÌå´óĞ¡*/
-			line-height: 4;/*ĞĞ¸ßĞĞ¾à*/
-			text-align:center;/*ÎÄ±¾¶ÔÆë·½Ê½:left/center/right/justify*/
-			position:fixed;/*¶¨Î»·½Ê½£¬static|relative|absolute|fixed*/
+			color:#666666;/*å­—ä½“é¢œè‰²*/
+			font-size:0.75em;/*å­—ä½“å¤§å°*/
+			line-height: 4;/*è¡Œé«˜è¡Œè·*/
+			text-align:center;/*æ–‡æœ¬å¯¹é½æ–¹å¼:left/center/right/justify*/
+			position:fixed;/*å®šä½æ–¹å¼ï¼Œstatic|relative|absolute|fixed*/
 			bottom:0px;
 			left:0px;
 			right:0px;
-			z-index:-1;/*ÏÔÊ¾²ã¼¶£¬ÖµÔ½´óÏÔÊ¾ÔÚÉÏ·½£¬ÖµĞ¡ÏÔÊ¾ÔÚÏÂ·½*/
+			z-index:-1;/*æ˜¾ç¤ºå±‚çº§ï¼Œå€¼è¶Šå¤§æ˜¾ç¤ºåœ¨ä¸Šæ–¹ï¼Œå€¼å°æ˜¾ç¤ºåœ¨ä¸‹æ–¹*/
 		}
 		.copyright a{
-			color:#666666;/*×ÖÌåÑÕÉ«*/
-			text-decoration:none;/*ÏßµÄĞ§¹ûnone/voerline/line-through/underline*/
+			color:#666666;/*å­—ä½“é¢œè‰²*/
+			text-decoration:none;/*çº¿çš„æ•ˆæœnone/voerline/line-through/underline*/
 		}
 		.col-8{
 			display:inline-block;/*block,inline,inline-block,none*/
@@ -101,29 +102,29 @@
 			<img src="../imgs/logo.png" class="form-logo">
 		</div>
 		<div>
-			<input class="form-input" name="username"placeholder="ÇëÊäÈëÓÃ»§Ãû"value="ÓàÔ½Ñó">
+			<input class="form-input" name="username"placeholder="è¯·è¾“å…¥ç”¨æˆ·å"value="ä½™è¶Šæ´‹">
 		</div>
 		<div>
-			<input class="form-input" name="password"placeholder="ÇëÊäÈëÃÜÂë"value="1808220134">
+			<input class="form-input" name="password"placeholder="è¯·è¾“å…¥å¯†ç "value="1808220134">
 		</div>
 		<div>
 			<div class="col-8">
-				<input class="form-input" name="chkcode"placeholder="ÇëÊäÈëÑéÖ¤Âë">
+				<input class="form-input" name="chkcode"placeholder="è¯·è¾“å…¥éªŒè¯ç ">
 			</div>
 			<div class="col-4">
-				<img src="../imgs/captcha.png"alt="ÑéÖ¤Âë">
+				<img src="../imgs/captcha.png"alt="éªŒè¯ç ">
 			</div>
 		</div>
 		<div>
-			<input class="form-button" type="submit"value="µÇÂ¼"></td>
+			<input class="form-button" type="submit"value="ç™»å½•"></td>
 		</div>
 		<div style="margin-bottom:2em;">
-			<a  class="form-link" href="#">Ã»ÓĞÕËºÅ£¬µãÎÒ×¢²á</a>
+			<a  class="form-link" href="#">æ²¡æœ‰è´¦å·ï¼Œç‚¹æˆ‘æ³¨å†Œ</a>
 		</div>
 	          	 
 	</form>
 	<div class="copyright">
-		<a href="about.html">»´ÄÏÊ¦·¶Ñ§Ôº</a>°æÈ¨ËùÓĞ2020 ÍîICP±¸ 05018250ºÅ Íî¹«Íø°²±¸ 34040002000148ºÅ
+		<a href="about.html">æ·®å—å¸ˆèŒƒå­¦é™¢</a>ç‰ˆæƒæ‰€æœ‰2020 çš–ICPå¤‡ 05018250å· çš–å…¬ç½‘å®‰å¤‡ 34040002000148å·
 	</div>
 </body>	 
 
